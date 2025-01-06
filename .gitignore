@@ -1,0 +1,25 @@
+# Ignore directories
+/.idea/
+/.vscode/
+/node_modules/
+/vendor/
+/bin/
+/obj/
+/build/
+
+/# Ignore macOS and Windows specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+*.tmp
+
+# Ignore IDE editor settings files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Go binaries (example for Go projects)
+*.exe
+*.out
+*.json
